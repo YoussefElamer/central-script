@@ -1,5 +1,5 @@
     document.addEventListener('DOMContentLoaded', function() {
-        document.querySelectorAll('a[href="#note-warning"]').forEach(function(link) {
+        document.querySelectorAll('a[href="#fnote-warning"]').forEach(function(link) {
             link.style.display = 'inline-block';
             link.style.padding = '20px';
             link.style.backgroundColor = '#fff3cd';  /* لون الخلفية */
