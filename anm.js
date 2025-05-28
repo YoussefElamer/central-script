@@ -1,4 +1,3 @@
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 $(document).ready(function() {
         $('a[href^="#button-four-Losha-"]').each(function() {
             var hrefRemainder = $(this).attr('href').replace('#button-four-Losha-', '');
