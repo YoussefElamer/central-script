@@ -1,4 +1,4 @@
-(function () {
+window.addEventListener("DOMContentLoaded", function () {
   // إعلان في أعلى الصفحة
   const ad = document.createElement('div');
   ad.innerHTML = '<div style="background:#222;color:#fff;padding:10px;text-align:center;">🔔 إعلان من موقعنا: تابعنا لكل جديد!</div>';
@@ -13,4 +13,4 @@
     }
   `;
   document.head.appendChild(style);
-})();
+});
